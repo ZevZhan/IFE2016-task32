@@ -1,0 +1,62 @@
+#box{
+	width: 600px;
+	height: 560px;
+	border: 1px solid gray;
+	margin: 40px auto;
+	font-family: '黑体';
+}
+
+#box b{
+	font-family: '宋体';
+	display: block;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+.top{
+	margin-top: 30px;
+}
+
+.inner_box{
+	width: 540px;
+	height: 500px;
+	margin:30px auto;
+	background: rgba(220,250,220,0.4);
+	text-align: center;
+}
+
+#chooseBtn{
+	background: rgba(180,240,210,0.9);
+	border: 1px solid gray;
+	padding: 2px 5px;
+	margin:8px 0 0 300px;
+}
+
+#formPart{
+	width: 440px;
+	height: 280px;
+	margin-left: 50px;
+	margin-top: 20px;
+	text-align: center;
+	background:#fefefe;
+	border-radius: 5px;
+	padding: 20px 0 10px 0;
+	
+}
+
+#submitBtn{
+	margin-left: 300px;
+	margin-top: 20px;
+	padding: 3px 12px;
+	background: rgba(180,240,210,0.9);
+	border: 1px solid gray;
+	display: none;
+}
+
+#formPart input{
+	width: 340px;
+	height: 30px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+}
+
